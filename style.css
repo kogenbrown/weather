@@ -57,7 +57,7 @@ button:hover {
 }
 
 h1.temp {
-  margin: 0;
+  margin-left: 8px;
 }
 
 .description {
@@ -67,4 +67,12 @@ h1.temp {
 .flex {
   display: flex;
   align-items: center;
+}
+
+.weather.loading {
+  visibility: hidden;
+}
+
+h2.city {
+  margin-bottom: 0px;
 }
